@@ -5,9 +5,9 @@
 
 /* CSS VARIABLES — palet warna utama UMSU */
 :root {
-  --hijau-tua: #006B3C;
-  --hijau-muda: #009A55;
-  --hijau-terang: #A7F3D0;
+  --biru-tua: #04006b;
+  --biru-muda: #38009a;
+  --biru-terang: #b6a7f3;
   --putih: #FFFFFF;
   --abu-gelap: #1E293B;
   --abu-muda: #64748B;
@@ -43,7 +43,7 @@ html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--hijau-tua);
+  background-color: var(--biru-tua);
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
 }
@@ -67,7 +67,7 @@ html {
   width: 52px;
   height: 52px;
   background-color: var(--putih);
-  color: var(--hijau-tua);
+  color: var(--biru-tua);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@ html {
 }
 
 .logo-sub {
-  color: var(--hijau-terang);
+  color: var(--biru-terang);
   font-size: 11px;
 }
 
@@ -113,8 +113,8 @@ html {
 
 .tombol-dark {
   background-color: transparent;
-  border: 2px solid var(--hijau-terang);
-  color: var(--hijau-terang);
+  border: 2px solid var(--biru-terang);
+  color: var(--biru-terang);
   padding: 8px 16px;
   border-radius: 20px;
   cursor: pointer;
@@ -123,8 +123,8 @@ html {
 }
 
 .tombol-dark:hover {
-  background-color: var(--hijau-terang);
-  color: var(--hijau-tua);
+  background-color: var(--biru-terang);
+  color: var(--biru-tua);
 }
 
 /* =============================================
@@ -133,12 +133,12 @@ html {
 
 #hero {
   min-height: 85vh;
-  background-color: var(--hijau-tua);
+  background-color: var(---birutua);
   background-image: linear-gradient(
      135deg,
-     rgba(0, 107, 60, 0.95) 0%,
-     rgba(0, 154, 85, 0.85) 50%,
-     rgba(0, 107, 60, 0.95) 100%
+     rgba(36, 0, 107, 0.95) 0%,
+     rgba(28, 0, 154, 0.85) 50%,
+     rgba(18, 0, 107, 0.95) 100%
   );
   display: flex;
   align-items: center;
@@ -158,7 +158,7 @@ html {
 }
 
 .hero-label {
-  color: var(--hijau-terang);
+  color: var(--biru-terang);
   font-size: 16px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -189,7 +189,7 @@ html {
 
 .tombol-utama {
   background-color: var(--putih);
-  color: var(--hijau-tua);
+  color: var(--biru-tua);
   padding: 14px 32px;
   border-radius: 8px;
   text-decoration: none;
@@ -199,7 +199,7 @@ html {
 }
 
 .tombol-utama:hover {
-  background-color: var(--hijau-terang);
+  background-color: var(--biru-terang);
   transform: translateY(-2px);
 }
 
@@ -216,7 +216,7 @@ html {
 
 .tombol-outline:hover {
   background-color: var(--putih);
-  color: var(--hijau-tua);
+  color: var(--biru-tua);
   transform: translateY(-2px);
 }
 
@@ -225,7 +225,7 @@ html {
     ============================================= */
 
 #statistik {
-  background-color: var(--hijau-tua);
+  background-color: var(--biru-tua);
   padding: 60px 24px;
 }
 
@@ -247,7 +247,7 @@ html {
 .stat-angka {
   font-size: 56px;
   font-weight: 800;
-  color: var(--hijau-terang);
+  color: var(--biru-terang);
 }
 
 .stat-satuan {
@@ -315,12 +315,12 @@ html {
 .program-kartu:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 36px rgba(0,0,0,0.12);
-  border-top: 4px solid var(--hijau-muda);
+  border-top: 4px solid var(--biru-muda);
 }
 
 .program-kartu.unggulan {
-  background-color: var(--hijau-tua);
-  border-top: 4px solid var(--hijau-terang);
+  background-color: var(--biru-tua);
+  border-top: 4px solid var(--biru-terang);
 }
 
 .program-kartu.unggulan .kartu-judul,
@@ -348,7 +348,7 @@ html {
 }
 
 .kartu-link {
-  color: var(--hijau-muda);
+  color: var(--biru-muda);
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -403,7 +403,7 @@ html {
 }
 
 .berita-link {
-  color: var(--hijau-muda);
+  color: var(--biru-muda);
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
@@ -433,11 +433,11 @@ html {
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  border: 4px solid var(--hijau-muda);
+  border: 4px solid var(--biru-muda);
 }
 
 .sambutan-label {
-  color: var(--hijau-muda);
+  color: var(--biru-muda);
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -479,7 +479,7 @@ html {
 .footer-logo {
   width: 56px;
   height: 56px;
-  background-color: var(--hijau-muda);
+  background-color: var(--biru-muda);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -490,7 +490,7 @@ html {
 }
 
 .footer-tagline {
-  color: var(--hijau-terang);
+  color: var(--biru-terang);
   font-style: italic;
   margin-bottom: 12px;
   font-size: 14px;
@@ -503,7 +503,7 @@ html {
 }
 
 .footer-judul-kolom {
-  color: var(--hijau-terang);
+  color: var(--biru-terang);
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -521,7 +521,7 @@ html {
 }
 
 .footer-link:hover {
-  color: var(--hijau-terang);
+  color: var(--biru-terang);
 }
 
 .footer-bawah {
@@ -563,7 +563,7 @@ body.dark-mode #berita {
     ============================================= */
 
 #navbar.navbar-scroll {
-  background-color: rgba(0, 60, 30, 0.98);
+  background-color: rgba(9, 0, 60, 0.98);
   box-shadow: 0 4px 24px rgba(0,0,0,0.25);
   padding: 0;
 }
@@ -572,3 +572,120 @@ body.dark-mode #berita {
   padding: 10px 24px;
 }
 
+
+/* =============================================
+  RESPONSIVE DESIGN
+  ============================================= */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .navbar-container,
+  .section-wrapper,
+  .statistik-container,
+  .footer-container {
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  }
+
+  .program-grid,
+  .berita-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  }
+
+  .footer-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  }
+
+  .sambutan-container {
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbar-container {
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 8px;
+  }
+
+  .navbar-menu {
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+  .logo-bulat {
+  width: 40px;
+  height: 40px;
+  font-size: 13px;
+  }
+
+  .hero-judul {
+  font-size: 32px;
+  }
+
+  .hero-sub {
+  font-size: 15px;
+  }
+
+  .hero-overlay {
+  padding: 48px 8px;
+  }
+
+  .statistik-container {
+  flex-direction: column;
+  gap: 24px;
+  }
+
+  .stat-angka {
+  font-size: 36px;
+  }
+
+  .stat-satuan {
+  font-size: 22px;
+  }
+
+  .section-judul {
+  font-size: 24px;
+  }
+
+  .program-grid,
+  .berita-grid {
+  grid-template-columns: 1fr;
+  gap: 16px;
+  }
+
+  .program-kartu,
+  .berita-kartu {
+  padding: 20px 12px;
+  }
+
+  .sambutan-container {
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  }
+
+  .foto-rektor {
+  width: 120px;
+  height: 120px;
+  font-size: 40px;
+  }
+
+  .footer-container {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 32px 8px 20px;
+  text-align: center;
+  }
+
+  .footer-logo {
+  margin: 0 auto 12px;
+  }
+}
